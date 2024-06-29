@@ -1,0 +1,47 @@
+.articles {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 230px 230px 230px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.articles__article {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Satoshi", sans-serif;
+}
+
+.article__title {
+  font-size: 10px;
+  font-style: bold;
+  margin: 0px 10px;
+  align-self: start;
+}
+
+.article__description {
+  font-size: 10px;
+  margin: 0px 10px;
+  align-self: start;
+}
+
+.article__info {
+  font-size: 7px;
+  display: flex;
+  align-self: start;
+  gap: 10px;
+  margin: 0px 10px 10px;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 90%;
+  height: 35%;
+  border-radius: 10px;
+  margin-top: 10px;
+}

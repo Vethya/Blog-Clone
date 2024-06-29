@@ -1,0 +1,20 @@
+.menu {
+  font-family: "Azeret Mono", sans-serif;
+  font-size: 11px;
+  color: var(--clr-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu__mode {
+  display: flex;
+  gap: 5px;
+}
+
+.menu__grid,
+.menu__burger {
+  display: block;
+  width: 20px;
+}

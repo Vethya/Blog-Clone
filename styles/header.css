@@ -1,0 +1,11 @@
+.header {
+  font-family: "Satoshi", sans-serif;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menus {
+  display: flex;
+  gap: 20px;
+}

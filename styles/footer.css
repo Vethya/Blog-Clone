@@ -1,0 +1,44 @@
+.footer {
+  color: white;
+  font-family: "Satoshi", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__author {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  background-color: var(--clr-blue);
+  font-size: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 1px 7px;
+  border-radius: 3px;
+}
+
+.footer__follow {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background-color: var(--clr-blue);
+  font-size: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+.footer__bird {
+  display: block;
+  width: 10px;
+  height: 10px;
+}

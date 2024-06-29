@@ -1,0 +1,23 @@
+.navigation {
+  font-family: "Azeret Mono", sans-serif;
+  font-size: 11px;
+  color: var(--clr-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.navigation__pages {
+  display: flex;
+}
+
+.navigation__pages p {
+  display: block;
+  padding: 10px;
+}
+
+.pages__2 {
+  color: var(--clr-pink);
+  border-top: 2px solid var(--clr-pink);
+}

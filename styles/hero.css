@@ -1,0 +1,21 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.hero__img {
+  width: 20%;
+}
+
+.hero__title {
+  font-family: "Azeret Mono", sans-serif;
+  font-size: xx-large;
+  color: var(--clr-pink);
+}
+
+.hero__description {
+  color: white;
+  font-family: "Satoshi", sans-serif;
+}
